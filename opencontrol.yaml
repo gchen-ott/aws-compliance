@@ -9,5 +9,5 @@ components:
   - ./IAM
   - ./S3
   - ./EC2
-  - ./MultiFactor
+#  - ./MultiFactor
   - ./VPC
