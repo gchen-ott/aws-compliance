@@ -15,14 +15,6 @@ satisfies:
 
     '
   standard_key: NIST-800-53
-- control_key: IA-3
-  covered_by: []
-  implementation_status: none
-  narrative: 'The underlying AWS infrastructure does not permit unauthenticated privileged
-    user access for console or API access.
-
-    '
-  standard_key: NIST-800-53
 - control_key: IA-2 (2)
   covered_by: []
   narrative: 'AWS multi-factor authentication (MFA) for non-privileged users of the
@@ -31,4 +23,12 @@ satisfies:
 
     '
   standard_key: NIST-800-53
-schema_version: 2.0
+  - control_key: IA-2 (3)
+  covered_by: []
+  implementation_status: none
+  narrative: 'The underlying AWS infrastructure does not permit unauthenticated privileged
+    user access for console or API access.
+
+    '
+  standard_key: NIST-800-53
+  schema_version: 2.0
