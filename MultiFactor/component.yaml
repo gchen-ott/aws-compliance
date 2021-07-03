@@ -7,6 +7,7 @@ references:
 satisfies:
 - control_key: IA-2 (1)
   covered_by: []
+  implementation_status: none  
   narrative: 'AWS multifactor authentication (MFA) for privileged users of the AWS
     console is implemented. This service has been configured for 18F administrative
     accounts in IAM. Multifactor authentication adds an extra layer of security for
@@ -17,6 +18,7 @@ satisfies:
   standard_key: NIST-800-53
 - control_key: IA-2 (2)
   covered_by: []
+  implementation_status: none  
   narrative: 'AWS multi-factor authentication (MFA) for non-privileged users of the
     AWS console is implemented. With MFA enabled, all users are prompted for a username
     and password, as well as the authentication code from their MFA device.
